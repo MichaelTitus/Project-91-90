@@ -3,5 +3,5 @@ function adduser(){
     var player2name=document.getElementById("playername2input").value;
     localStorage.setItem("playername1", player1name);
     localStorage.setItem("playername2", player2name);
-    window.location="math_page.html";
+    window.location="Math_page.html";
 }
